@@ -7,33 +7,47 @@ body {
 }
 
 nav {
-  background-color: #424242;
+  background-color: rgba(255, 0, 51, .6);
   height: auto;
   color: white;
+  padding: 2rem;
+  position: fixed;
+  z-index: 10;
 }
 
 .logo {
   float: left;
   margin-left: 15px;
-  margin-top:  22px;
-  margin-bottom: 10px;
   font-size: 2rem;
 }
 
 .b-menu {
   float: right;
-  margin-right: 10px;
+  /* margin-right: 10px;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 10px; */
   max-width: 15%;
+}
+
+.menu-desktop {
+  text-decoration: none;
+  float: right;
+}
+
+.menu-desktop a {
+  font-size: 1.7rem;
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
 }
 
 header {
   text-align: center;
-  background-image: url(https://i.pinimg.com/564x/0c/6e/99/0c6e99dfa757f8813cfe960947dfdd21.jpg);
+  background-image: url("../assets/images/gif-header.gif");
   background-position: center;
   background-size: cover;
   color: white;
+  height: 40rem;;
   padding: 5rem;
 }
 
