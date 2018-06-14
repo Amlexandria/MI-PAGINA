@@ -54,4 +54,20 @@
     [class *='col-'] {
        width: 100%;
     }
+
+    .text {
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 5rem;
+    }
+
+    h2{
+      font-size: 3rem;S
+    }
+
+    h3{
+      font-size: 2rem;
+    }
 }
