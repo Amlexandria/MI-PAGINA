@@ -73,9 +73,12 @@
       display: none;
     }
 
-    .text {
-      padding: 2rem;
+    .sec-text {
+      padding-top: 4rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
     }
+
 
     h1 {
       font-size: 5rem;
